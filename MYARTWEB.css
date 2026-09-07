@@ -1,0 +1,200 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.box {
+  background-color: #FFF5F5;
+  border: 1px solid #FECACA;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 30px auto;
+  width: 70%;
+  box-shadow: 0 4px 10px rgba(185, 28, 28, 0.1);
+}
+
+.box h3 {
+  color: #B91C1C;
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.box p {
+  color: #374151;
+  line-height: 1.6;
+}
+
+.box ol {
+  color: #374151;
+  line-height: 1.8;
+}
+
+.my-button {
+  background-color: #2563EB;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 200px;
+}
+
+.my-button:hover {
+  background-color: #1D4ED8;
+}
+
+.footer {
+  background-color: #2563EB;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+/* Phone */
+@media screen and (max-width: 480px) {
+  .box {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+  .box h3 {
+    font-size: 18px;
+  }
+  .my-button {
+    width: 100%;
+  }
+}
+
+.hero image {
+  width: 100%;
+  height: 300%px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color: black;
+    text-shadow: 3px 3px 0px #fAF3E0, 6px 6px 12px rgba(0,0,0,0.4);
+    font-family: arial black , sans-serif;
+    font-size: clamp(24px,5vw,40px);
+    word-break: break-word;
+    transform: translateY(-5px);
+}
+
+h3 {
+    margin: 5px;
+    font-size: 16px;
+    color: orange;
+    font-style: oblique;
+    font-family: Courier;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .footer h3 {font-size: 14px;}
+    .footer p {font-size: 12px;} 
+}
+
+table {
+    background-color: white;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+p {
+    color: black;
+}
+
+
+.box {  
+    background-color: #EFF6FF;
+    border: 2px solid #5697ec;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px auto;
+    width: 50%;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.xbox {
+    color: white;
+    background-color: black;
+    border: 2px;
+    border-radius: 0px;
+    margin-top: 40px;
+    padding: 15px;
+    width: 98%;
+    height: 100px;
+}
+
+.disc {
+     background-color: #EFF6FF;
+    border: 2px solid #e8ebf0;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px auto;
+    width: 90%;
+    box-shadow: 3px 3px 10px gray;
+}
+
+
+
+.my-button {
+    background-color: #1cb929;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
